@@ -23,7 +23,6 @@
 <div class="row">
 <div class="col-lg-8 col-md-5 col-sm-8 col-centered">
 
-<!-- this form is handled by the JavaScript file linked at bottom -->
 <form id="journoform" method="post" autocomplete="off">
     <div class="form-group row">
       <label for="name" class="col-sm-2 col-form-label">Name</label>
@@ -58,19 +57,18 @@
     <div class="form-group row">
       <div class="col text-center">
         <input class="btn btn-primary text-center" type="submit" id="submit" value="Submit">
-      <!--  <button type="submit" class="btn btn-primary text-center">Submit</button> -->
       </div>
     </div>
   </form>
 </div>
-</div> <!-- close #socks -->
+</div>
 
 <div id="respond">
     <p>Thank you for submitting the form!</p>
     <p><a href="newrecord.php">Return to the form</a></p>
 </div>
 </div>
-</div> <!-- close container -->
+</div> 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/enter.js"></script>
