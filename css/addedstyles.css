@@ -1,0 +1,9 @@
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+body {
+  background-color: #ffe8d5;
+  overflow-x: hidden;
+}
